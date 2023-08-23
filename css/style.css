@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Thin ;
+    src: url(/font/Catamaran-Thin.ttf);
+}
+
+@font-face {
+    font-family:Light ;
+    src: url(/font/Catamaran-Light.ttf);
+}
+
+@font-face {
+    font-family:Bold ;
+    src: url(/font/Catamaran-Bold.ttf);
+}
+
+
+.header{
+    padding: 30px 4rem;
+    background-color:#fff;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-all img{
+    width: 106px;
+    height: 20px;
+    margin-right: 140px;
+}
+
+.nav a{
+    margin: 0 18px;
+    font-family: Light;
+    font-size: 16px;
+    color: #929292;
+    text-decoration: none;
+}
+
+.logo i{
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+ .logo .Login{
+    margin: 0px 70px 0px 0px;
+} 
+
+
+.logo a{
+    font-size: 14px;
+    font-family: Light;
+    text-decoration: none;
+    color: #080808;
+    margin: 0px 15px;
+}
+
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.box{
+    width: 22%;
+}
+
+.box img{
+    width: 100%;
+    padding: 0px 25px 50px;
+    margin: 70px 0px 0px 0px;
+   
+    
+}
+
+.about{
+    text-align:center;
+    
+}
+
+.about h5{
+    font-family: Bold;
+    color:#080808;
+    font-size: 15px;
+}
+
+.about span{
+    font-family: Light;
+    color: #999999;
+    font-size: 18px;
+}
+
+
