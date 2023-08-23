@@ -77,31 +77,33 @@
     width: 100%;
     padding: 0px 25px 50px;
     margin: 70px 0px 0px 0px;
+    margin-bottom: -40px; 
 }
 
+
 .about{
-    text-align:center;
+     text-align:center; 
+     
 }
 
 .about h5{
     font-family: Bold;
     color:#080808;
     font-size: 15px;
+    
 }
 
 .about span{
     font-family: Light;
     color: #999999;
     font-size: 18px;
-}
+}   
 
 .footer{
-    margin-top: 100px;
-    display: block;
-
+    margin-top: 120px;
 }
 
-.fr{
+.h-a{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -112,26 +114,28 @@
 
 .footer-all{
      display: flex;
-    justify-content: space-between;
-    margin: 0 0 70px 82px;
+     justify-content: space-between;
+     margin: 0 0 70px 82px;
 }
 
-.fr h3{
+.h-a h3{
     color: #080808;
     font-family: Light;
     font-size: 16px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 20px;
+    
 }
 
-.fr a{
+.h-a a{
     text-decoration: none;
     font-family: Thin;
     font-size: 14px;
     color: #929292;
-    text-align: center;
     margin: 5px 0;
-
 }
 
+.h-a a:hover{
+    color: #080808;
+    transition: 0.5s;
+}
 
